@@ -1,0 +1,101 @@
+/* show hidden massage */
+.hidder {
+  opacity: 0;
+}
+
+.hid:hover .hidder {
+  opacity: 1;
+}
+
+.header {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.rightalign {
+  display: block;
+}
+
+.jumbotron {
+  background-color: white;
+  line-height: 30px;
+  font-size: 16px
+}
+
+span.location_time {
+  float: right;
+  color: #00000;;
+  text-align: right;
+  font-size: 15px;
+}
+
+li {
+   list-style: none;
+ }
+
+.bp> li{
+  list-style: circle;
+}
+
+h5{
+  text-indent: 50px;
+}
+
+#carouselExampleIndicators {
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-inner img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+ height: auto;
+}
+.rotate img{
+  transform: rotate(270deg)
+}
+.footer{
+
+  text-align: center;
+  padding-top: -50px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+
+
+
+.bg-1 {
+  background-color: #1abc9c;
+  /* Green */
+  color: #ffffff;
+}
+
+.bg-1 {
+  background-color: #1abc9c;
+  /* Green */
+  color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #474e5d;
+  /* Dark Blue */
+  color: #ffffff;
+}
+
+.bg-3 {
+  background-color: #ffffff;
+  /* White */
+  color: #555555;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media (min-width: 990px) {
+  .header {
+    padding-bottom: 40px;
+  }
+}
