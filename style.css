@@ -24,46 +24,55 @@
 
 span.location_time {
   float: right;
-  color: #00000;;
+  color: #00000;
+  ;
   text-align: right;
   font-size: 15px;
 }
 
 li {
-   list-style: none;
- }
+  list-style: none;
+}
 
-.bp> li{
+.bp>li {
   list-style: circle;
 }
 
-h5{
+h5 {
   text-indent: 50px;
 }
 
 #carouselExampleIndicators {
-  margin-left: auto;
+  margin-left: ;
   margin-right: auto;
 }
+
 .carousel-inner img {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 100%;
- height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
 }
-.rotate img{
+
+.shrink img {
+  width: 80%
+}
+
+.shrinkmore img{
+  width: 50%
+}
+
+.rotate270 img {
   transform: rotate(270deg)
 }
-.footer{
 
+.footer {
   text-align: center;
   padding-top: -50px;
   margin-top: -20px;
   padding-bottom: 50px;
 }
-
-
 
 .bg-1 {
   background-color: #1abc9c;
